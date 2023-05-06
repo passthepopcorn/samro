@@ -73,7 +73,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
                     let prompt_template =
                         "I am artificial intelligence " +
                         BOT_NAME +
-                        " developed by a Harshit Sharma.\n\nHuman: Hi. How are you?\n" +
+                        " developed by a MR SAMYAK.\n\nHuman: Hi. How are you?\n" +
                         BOT_NAME +
                         ": I'm well. How can I help you?\nHuman: " +
                         budy +
@@ -122,7 +122,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
                             m.reply(`${response.data.choices[0].text}\n\n`)
                         } catch (err) {
                             console.log(err)
-                            m.reply('Maaf, sepertinya ada yang error')
+                            m.reply('Sorry, there seems to be an error')
                         }
                         break
                     default: {
